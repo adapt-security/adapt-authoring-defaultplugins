@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$anchor": "defaultplugins",
+  "description": "Defines whether plugins should be added as default",
+  "$merge": {
+    "with": {
+      "properties": {
+        "isAddedByDefault": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    }
+  }
+}
