@@ -3,6 +3,8 @@
   "$anchor": "defaultplugins",
   "description": "Defines whether plugins should be added as default",
   "$merge": {
+    "type": "merge",
+    "source": { "$ref": "contentplugin" },
     "with": {
       "properties": {
         "isAddedByDefault": {
