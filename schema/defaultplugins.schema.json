@@ -2,8 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$anchor": "defaultplugins",
   "description": "Defines whether plugins should be added as default",
-  "$merge": {
-    "type": "merge",
+  "$patch": {
     "source": { "$ref": "contentplugin" },
     "with": {
       "properties": {
