@@ -4,8 +4,8 @@
   "description": "Allows specified content plugins to be added to every new course by default",
   "homepage": "https://github.com/adaptlearning/adapt-authoring-defaultplugins",
   "license": "GPL-3.0",
-  "repository": "adaptlearning/adapt-authoring-defaultplugins",
   "main": "index.js",
+  "repository": "adaptlearning/adapt-authoring-defaultplugins",
   "peerDependencies": {
     "adapt-authoring-core": "adapt-security/adapt-authoring-core"
   }
