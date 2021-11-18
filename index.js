@@ -1,1 +1,1 @@
-module.exports = require('./lib/DefaultPluginsModule');
+export { default } from './lib/DefaultPluginsModule.js';
