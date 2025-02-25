@@ -2,7 +2,7 @@
   "name": "adapt-authoring-defaultplugins",
   "version": "0.0.1",
   "description": "Allows specified content plugins to be added to every new course by default",
-  "homepage": "https://github.com/adaptlearning/adapt-authoring-defaultplugins",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-defaultplugins",
   "license": "GPL-3.0",
   "type": "module",
   "main": "index.js",
