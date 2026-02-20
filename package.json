@@ -7,21 +7,8 @@
   "type": "module",
   "main": "index.js",
   "repository": "github:adapt-security/adapt-authoring-defaultplugins",
-  "peerDependencies": {
-    "adapt-authoring-content": "^1.2.3",
-    "adapt-authoring-contentplugin": "^1.0.6",
-    "adapt-authoring-core": "^1.7.0"
-  },
-  "peerDependenciesMeta": {
-    "adapt-authoring-content": {
-      "optional": true
-    },
-    "adapt-authoring-contentplugin": {
-      "optional": true
-    },
-    "adapt-authoring-core": {
-      "optional": true
-    }
+  "scripts": {
+    "test": "node --test 'tests/**/*.spec.js'"
   },
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
@@ -55,5 +42,20 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "adapt-authoring-core": "^1.7.0"
+  },
+  "peerDependencies": {
+    "adapt-authoring-content": "^1.2.3",
+    "adapt-authoring-contentplugin": "^1.0.6"
+  },
+  "peerDependenciesMeta": {
+    "adapt-authoring-content": {
+      "optional": true
+    },
+    "adapt-authoring-contentplugin": {
+      "optional": true
+    }
   }
 }
