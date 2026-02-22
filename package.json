@@ -44,10 +44,10 @@
     ]
   },
   "dependencies": {
-    "adapt-authoring-core": "^1.7.0"
+    "adapt-authoring-core": "^2.0.0"
   },
   "peerDependencies": {
-    "adapt-authoring-content": "^1.2.3",
+    "adapt-authoring-content": "^2.0.0",
     "adapt-authoring-contentplugin": "^1.0.6"
   },
   "peerDependenciesMeta": {
