@@ -49,13 +49,5 @@
   "peerDependencies": {
     "adapt-authoring-content": "^1.2.3",
     "adapt-authoring-contentplugin": "^1.0.6"
-  },
-  "peerDependenciesMeta": {
-    "adapt-authoring-content": {
-      "optional": true
-    },
-    "adapt-authoring-contentplugin": {
-      "optional": true
-    }
   }
 }
