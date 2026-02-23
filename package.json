@@ -44,7 +44,7 @@
     ]
   },
   "dependencies": {
-    "adapt-authoring-core": "^1.7.0"
+    "adapt-authoring-core": "^2.1.1"
   },
   "peerDependencies": {
     "adapt-authoring-content": "^1.2.3",
